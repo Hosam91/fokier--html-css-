@@ -1,0 +1,301 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+.container { width: 90%; margin: auto;}
+.clr { clear: both;}
+body{ font-family: 'Source Sans Pro', sans-serif;}
+
+
+
+/* ^^^^^^^^start part 1^^^^^^^^^ */ 
+
+.header { background-image: url(img/img/slider/slider-01.jpg);
+        background-size:cover ;
+        height: 100vh;
+         position: relative;
+}
+.opa {  background-color: black;
+    opacity: 0.8;
+    height: 100%; 
+    width: 100%;   
+    position: absolute;
+
+}
+
+
+.nav-bar {      
+    position: relative; 
+
+}
+
+.logo { width: 25%;
+        float: left;
+       font-size: 24px;
+        font-weight: 800;
+        padding: 15px 0px;  
+
+
+       
+    }
+.logo a {  text-decoration: none;
+            color :#F7305B;
+
+}   
+
+.nav { float: right;
+       width: 75%; 
+       position: relative;
+          
+}
+.nav div { float: right;}
+.nav ul { position: relative;
+    right: 0;  top: 0;  }
+.nav li { float: left;
+          list-style: none;
+          padding: 15px ; 
+         font-size: 16px;
+         font-weight: 300;
+         letter-spacing: 0.5px;
+         padding: 18px ; 
+                  }
+.nav a {  text-decoration: none;
+          color: aliceblue;
+          text-transform: capitalize;
+          transition: color .5s;
+}    
+.nav  .home  a{color:#F7305B}  
+.nav a:hover{ color:#F7305B}
+
+
+.head-content{ 
+                position: relative;
+                font-family: 'Source Sans Pro', sans-serif;
+                position: relative;
+                text-align: center;
+                padding: 190px;
+                    
+            }
+.head-content h1 { color:#FF305B ;
+                font-size: 70px;
+                font-weight: bold;
+                padding: 40px;
+                }
+.head-content h3 { font-weight:600 ; color:#FFFFFF ; 
+     font-size: 24px;}
+.head-content h4 { color: #fff; 
+     font-size: 26;
+      font-weight: 300;
+    
+    }
+
+
+                    /* end of part 1 */
+
+.about {
+        margin-top: 70px;
+        position: relative;
+ }  
+
+
+
+.about-img { 
+    width: 50%;
+    float: left;
+    padding: 10px;
+    position: relative;
+   
+   
+    }
+
+.bord {width: 60%;
+     border: 10px solid #555555;
+     border-radius: 5px;
+     position: relative;
+     left: 70;
+
+    }
+    .about-img   img { position: relative; top: 20; left: 20}
+
+
+
+.about-text {
+     width: 50%;
+     float: right;
+     padding: 20px;
+    }
+    
+  .intro   { padding: 10px;}
+                    
+  .intro h2 { border-left:solid 5px #F7305B;
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 25px;   
+    padding-left: 8px; 
+}
+    .intro p { 
+        color: #999999;
+        margin-bottom: 25px;
+        padding-bottom: 25px;
+        border-bottom: 1px dashed #999999;
+        }
+
+
+  .info ul { width: 50%; float: left;  padding-bottom: 25px;}  
+  .info li { list-style: none;
+           padding-bottom: 30px;
+
+             } 
+    
+   .info li  span { font-weight: bold;}  
+   
+   .about-text a {  
+         text-decoration: none;
+         background-color:#F7305B;
+         color: #fff;
+         border-radius:5px;
+        padding:10px 24px;
+        margin: 5px;
+        transition: background-color .5s;
+}
+ .about-text a:hover{background-color:#EC2403 ;}
+
+            /* end of part2 */
+
+.serveice { margin-top:100px;
+            background-color: #F1F1F1; 
+            padding: 50px 0px;
+
+        }     
+ .h { text-align: center;width: 33.33%; margin: auto;}  
+ .h h2 { border-bottom:1px solid #F7305B ;}
+ 
+ .serveice .items 
+                { 
+                    padding: 5px; 
+
+                }   
+                    
+ .serveice .items .item {   
+                    padding: 20px; 
+                    width: 25%;
+                    float: left;
+                    text-align: center;
+                   
+
+
+ }    
+ .serveice .items .item div {text-align: center;}           
+ .serveice .items .item div img{ padding: 15px;}
+ .items .item h3 { padding: 5px 5px 20px 5px; 
+                    color: #333333;}
+ .items .item p { color :#555555; }
+ .items .item:hover { background-color: #fff; }
+
+
+
+            /* end part 3  */
+
+
+.protfolio
+            {
+                padding: 50px 0px;
+               
+
+
+                    }        
+
+.pro-hed { text-align: center;
+            width:40%;margin: auto;}
+
+    .pro-hed h1  { padding-bottom: 20px;
+     
+        font-family: 'Source Sans Pro', sans-serif;
+        border-bottom: 2px solid  #F7305B;
+        font-size: 40px;
+        font-weight: 800;
+        
+       
+        color: #333;   
+        width: 60%;
+        margin: 0px auto;
+ }
+ .pro-hed div {
+   
+    }
+    .pro-hed ul {
+        padding-top: 20px;
+    }    
+    
+    .pro-hed ul li { list-style: none;
+                    float: left;
+                    width: 25%;
+                    font-size: 16px;
+                    font-weight: 400;
+                    }
+  .pro-hed .all { color: #F7305B;}              
+ 
+  .pro-items  {
+    padding-top: 50px;
+       }
+  .pro-items .photo { 
+                width: 31%; ; 
+                float: left;
+                margin: 10px;
+                position: relative;
+                background-color: #FFFFFF;
+                text-align: center;
+
+  }  
+    
+
+  .pro-items .photo img { width : 100% ;}  
+  /* .pro-items .photo a { position: relative;} */
+  .photo .oppa {  
+            width: 100% ;
+            height: 100%;
+            position: absolute;
+            top: 0; background-color: black;
+            opacity: .0;
+            transition: opacity.5s;
+
+  }  
+  .pro-items .photo .oppa:hover { opacity: .5;}      
+
+           
+
+               
+             
+
+
+                        /* end part 4 */
+
+ .numbers
+                    {
+                        background-color:#F1F1F1;
+                        padding: 50px;
+                    }               
+ .nums { 
+     width: 25%;
+     float: left;
+     text-align: center;
+ }               
+ .nums .icon { padding-bottom:20px ;}
+ .nums h3 { padding-bottom:20px ; color: #555555;}
+ .nums p { color: #555555;} 
+ 
+
+            /* end of part 5 */
+
+.feedback  { padding: 50px;}              
+.feed-hed { text-align: center;
+            font-size: 30px;
+            font-weight: 400;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            position: relative;
+}
+.feeds {width: 70%; margin: auto;
+     background-color:#F1F1F1 ;
+    
+    }
+ .imgfeed {width: 20%; float: left; padding: 0;}  
+ .imgfeed img{ border-radius: 50%;}   
+.textfeed { width: 80%; }  
